@@ -94,7 +94,7 @@ The used car market in India is growing fast due to:
 
 #### 3️⃣ Data Splitting  
 - **Train-Test Split** – 80% for training, 20% for testing. 
-## Stage 4: Modeling
+## Stage 4 & 5: Modeling
 
 #### 1️⃣ Choosing the Right Model  
 Since we are predicting car prices (a continuous variable), this is a regression problem. Possible models:  
