@@ -8,11 +8,11 @@ This project is all about creating a **smart pricing system** for used cars, hel
 - **Prices reflect** both the car's true value and market conditions 
 ## CRISP-DM Framework
 
-1️⃣ **Business Understanding** – Business Understanding of the used car market. \
-2️⃣ **Data Understanding** – Explored the dataset, key features, and issues like missing values. \
-3️⃣ **Data Preparation** – Cleaned, transformed, and preprocessed data for modeling.  \
-4️⃣ **Modeling** – Build predictive models using machine learning to estimate the best car prices. \
-5️⃣ **Evaluation** – Monitored model performance.  \
+1️⃣ [**Business Understanding**](#Business-Understanding) – Business Understanding of the used car market. \
+2️⃣ [**Data Understanding**](#Data-Understanding) – Explored the dataset, key features, and issues like missing values. \
+3️⃣ [**Data Preparation**](#Data-Preparation) – Cleaned, transformed, and preprocessed data for modeling.  \
+4️⃣ [**Modeling**](#Modeling) – Build predictive models using machine learning to estimate the best car prices. \
+5️⃣ [**Evaluation**](#Modeling) – Monitored model performance.  \
 6️⃣ **Deployment** –  (in future) Implement the model into websites/apps for making it accesable for everyone. 
 
 This structured approach ensures a **scalable, accurate, and business-impactful solution**.  
@@ -41,8 +41,9 @@ The used car market in India is growing fast due to:
 - **Higher Sales Conversions**  
 - **Better Profit Margins** 
 - **Optimized Inventory Management**  
-- **Data-Driven Pricing** 
-## Stage 2: Data Understanding
+- **Data-Driven Pricing**
+
+## Data Understanding
 
 #### 1️⃣ Data Sources  
 - **Historical Sales Data** – Prices of sold used cars.   
@@ -93,8 +94,9 @@ The used car market in India is growing fast due to:
 `Brand`, `Transmission`, `FuelType`, `PostedMonth`
 
 #### 3️⃣ Data Splitting  
-- **Train-Test Split** – 80% for training, 20% for testing. 
-## Stage 4 & 5: Modeling
+- **Train-Test Split** – 80% for training, 20% for testing.
+- 
+## Modeling
 
 #### 1️⃣ Choosing the Right Model  
 Since we are predicting car prices (a continuous variable), this is a regression problem. Possible models:  
