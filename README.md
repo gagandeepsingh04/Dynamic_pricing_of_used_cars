@@ -69,6 +69,8 @@ The used car market in India is growing fast due to:
     **Observations**:
     - `Year` (1986 - 2024) → Dataset includes cars from 1986 to 2024.
     - `Age` (0 - 38 years) → Some cars are very old, others are brand new.
+![age_vs_askPrice.png](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/ageVsPrice.png)
+![year_vs_askPrice](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/yearVsPrice.png)
 - **Categorical Data Analysis:-** \
     **Observations**:
     - `Brand` (39 unique values) → 39 different car brands (e.g., Maruti Suzuki is the most frequent).
@@ -81,10 +83,12 @@ The used car market in India is growing fast due to:
 - **Outliers & Anomalies** – remove outliers from both `age` and `kmDriven`.
 - **Binning of data** - binned data of `Age` and `Year`
 - **Log Transformed** - `kmDriven`, `AskPrice`.
+![log_transformed_kmDriven](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/logTransformed_kmDriven.png)
+![log_transformed_AskPrice](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/logTransformed_askPrice.png)
 - **Feature Relationship** – `Age` and `Year` shows good relationship with `AskPrice`.
 - **Feature Distributions Analysis** – checked distribution of `AskPrice`, `Age`, `Year` and `kmDriven`.
 - **Removed Duplicate Rows**
-- 
+
 ## Data Preparation  
 
 #### 1️⃣ Feature Selection
