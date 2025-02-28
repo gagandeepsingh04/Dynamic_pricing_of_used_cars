@@ -84,7 +84,8 @@ The used car market in India is growing fast due to:
 - **Feature Relationship** – `Age` and `Year` shows good relationship with `AskPrice`.
 - **Feature Distributions Analysis** – checked distribution of `AskPrice`, `Age`, `Year` and `kmDriven`.
 - **Removed Duplicate Rows**
-## Stage 3: Data Preparation  
+- 
+## Data Preparation  
 
 #### 1️⃣ Feature Selection
 `Brand`, `Year`, `Age`, `log_kmDriven`, `Transmission`, `Owner`, `FuelType`, `PostedMonth`, `AskPrice`
