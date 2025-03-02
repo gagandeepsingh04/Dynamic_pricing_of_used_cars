@@ -114,11 +114,17 @@ Since we are predicting car prices (a continuous variable), this is a regression
 - Findout the Best Degree of the Polynomial Regression.
 - Uses Regularization (Lasso/Ridge) to prevent overfitting.
 
+![polynomial_model_graph](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/polynomial_model_graph.png)
+![SVR_graph](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/SVR_graph.png)
+![XGBoost_graph](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/XGBoost_graph.png)
+
 #### 3️⃣ Performance Metrics of Best Model
 
 | Metric | Value |
 |---|---|
-| MAE (Mean Absolute Error) | 0.41 |
-| MSE (Mean Squared Error) | 0.36 |
-| R² Score | 0.61 |
+| MAE (Mean Absolute Error) | 0.29 |
+| MSE (Mean Squared Error) | 0.17 |
+| R² Score | 0.81 |
 
+![feature_importance_in_XGBoost](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/feature_importance.png)
+![graphical_compare_models](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/model_performance_graph.png)
