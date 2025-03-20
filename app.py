@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import numpy as np
+import xgboost as xgb
 
 # Load the model
 model = xgb.XGBRegressor()
