@@ -129,3 +129,6 @@ Since we are predicting car prices (a continuous variable), this is a regression
 
 ![feature_importance_in_XGBoost](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/feature_importance.png)
 ![graphical_compare_models](https://github.com/gagandeepsingh04/Dynamic_pricing_of_used_cars/blob/main/model_performance_graph.png)
+
+## Model Deployed on Streamlit
+link: https://dynamicpricingofusedcars-ofbx77mzyn7cixnvkbrmfz.streamlit.app/
