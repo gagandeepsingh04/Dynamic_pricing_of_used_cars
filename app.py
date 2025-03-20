@@ -2,8 +2,9 @@ import streamlit as st
 import joblib
 import numpy as np
 
-# Load model
-model = joblib.load("used_car_price_xgb.pkl")
+# Load the model
+model = xgb.XGBRegressor()
+model.load_model("used_car_price_xgb.json")
 
 # Streamlit UI
 st.title("🚘 Used Car Price Prediction")
