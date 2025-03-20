@@ -13,7 +13,7 @@ This project is all about creating a **smart pricing system** for used cars, hel
 3️⃣ [**Data Preparation**](#Data-Preparation) – Cleaned, transformed, and preprocessed data for modeling.  \
 4️⃣ [**Modeling**](#Modeling) – Build predictive models using machine learning to estimate the best car prices. \
 5️⃣ [**Evaluation**](#Modeling) – Monitored model performance.  \
-6️⃣ **Deployment** –  (in future) Implement the model into websites/apps for making it accesable for everyone. 
+6️⃣ [**Deployment**](#Model-Deployed-on-Streamlit) –  (in future) Implement the model into websites/apps for making it accesable for everyone. 
 
 This structured approach ensures a **scalable, accurate, and business-impactful solution**.  
 
